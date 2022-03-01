@@ -1,0 +1,12 @@
+ja:
+  books:
+    index:
+      Books: '書籍'
+      Title: 'タイトル'
+      Memo: 'メモ'
+      Author: '著者'
+      Picture: '画像'
+      Show: '閲覧する'
+      Edit: '編集する'
+      Destroy: '削除する'
+      New Book: '新規書籍'

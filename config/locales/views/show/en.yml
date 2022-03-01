@@ -1,0 +1,9 @@
+ja:
+  books:
+    show:
+      Title: 'Title'
+      Memo: 'Memo'
+      Author: 'Author'
+      Picture: 'Picture'
+      Edit: 'Edit'
+      Back: 'Back'
