@@ -2,6 +2,7 @@ ja:
   activerecord:
     models:
       book: 本  #g
+      user: ユーザー
 
     attributes:
       book:
@@ -9,3 +10,24 @@ ja:
         memo: メモ  #g
         picture: 画像  #g
         title: 題名  #g
+      
+      user:
+        email: Eメール
+        password: パスワード
+        post_code: 郵便番号
+        address: 住所
+        self_introduction: 自己紹介
+
+  edit_profile: プロフィールを編集
+  logout: ログアウト
+  sign_up: サインアップ
+  login: ログイン
+  logged_in_as: 以下のユーザーとしてログインしています
+  leave_blank_if_you_dont_want_to_change_it: 変更したくない場合は空欄のままにしてください
+  we_need_your_current_password_to_confirm_your_changes: 変更するには現在のパスワード入力が必要です
+  update: アップデート
+  cancel_my_account: アカウントを削除
+  unhappy?: アンハッピー？
+  back: 戻る
+  password_confirmation: パスワードを確認 
+  current_password: 現在のパスワード
