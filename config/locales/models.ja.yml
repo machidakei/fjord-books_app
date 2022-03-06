@@ -10,3 +10,11 @@ ja:
         picture: 画像
         created_at: 作成日
         updated_at: 更新日
+
+  edit: 編集する
+  back: 一覧に戻る
+  show: 閲覧する
+  editing_book: 書籍を編集中
+  destroy: 削除する
+  new_book: 新規書籍
+

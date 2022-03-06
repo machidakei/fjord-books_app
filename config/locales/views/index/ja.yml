@@ -1,7 +1,0 @@
-ja:
-  books:
-    index:
-      show: '閲覧する'
-      edit: '編集する'
-      destroy: '削除する'
-      new_book: '新規書籍'
