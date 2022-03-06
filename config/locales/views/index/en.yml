@@ -1,12 +1,7 @@
 ja:
   books:
     index:
-      Books: 'Books'
-      Title: 'Title'
-      Memo: 'Memo'
-      Author: 'Author'
-      Picture: 'Picture'
-      Show: 'Show'
-      Edit: 'Edit'
-      Destroy: 'Destroy'
-      New Book: 'New Book'
+      show: 'Show'
+      edit: 'Edit'
+      destroy: 'Destroy'
+      new_book: 'New Book'

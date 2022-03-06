@@ -1,5 +1,5 @@
 ja:
   books:
     new:
-      New Book: 'New Book'
-      Back: 'Back'
+      new_book: 'New Book'
+      back: 'Back'

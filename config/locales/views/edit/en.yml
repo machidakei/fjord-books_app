@@ -1,6 +1,6 @@
 ja:
   books:
     edit:
-      Editing Book: 'Editing Book'
-      Show: 'Show'
-      Back: 'Back'
+      editing_book: 'Editing Book'
+      show: 'Show'
+      back: 'Back'

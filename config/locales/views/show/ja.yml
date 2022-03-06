@@ -1,9 +1,5 @@
 ja:
   books:
     show:
-      Title: 'タイトル'
-      Memo: 'メモ'
-      Author: '著者'
-      Picture: '画像'
-      Edit: '編集する'
-      Back: '一覧に戻る'
+      edit: '編集する'
+      back: '一覧に戻る'

@@ -1,5 +1,5 @@
 ja:
   books:
     new:
-      New Book: '新規書籍'
-      Back: '一覧に戻る'
+      new_book: '新規書籍'
+      back: '一覧に戻る'

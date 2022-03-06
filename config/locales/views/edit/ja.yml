@@ -1,6 +1,6 @@
 ja:
   books:
     edit:
-      Editing Book: '書籍を編集中'
-      Show: '閲覧する'
-      Back: '一覧に戻る'
+      editing_book: '書籍を編集中'
+      show: '閲覧する'
+      back: '一覧に戻る'
