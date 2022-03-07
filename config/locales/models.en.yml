@@ -1,0 +1,19 @@
+ja:
+  activerecord:
+    models:
+      book: book
+    attributes:
+      book:
+        title: title
+        memo: memo
+        author: author
+        picture: picture
+        created_at: created_at
+        updated_at: updated_at
+
+  edit: Edit
+  back: Back
+  show: Show
+  editing_book: Editing Book
+  destroy: Destroy
+  new_book: New Book
