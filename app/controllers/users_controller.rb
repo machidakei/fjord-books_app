@@ -2,7 +2,7 @@
 
 class UsersController < ApplicationController
   def index
-    @users = User.order(:id).page(params[:page])
+    @users = User.order(:id).page(params[:page]).includes(:avatar)
   end
 
   def show
@@ -12,6 +12,6 @@ class UsersController < ApplicationController
   private
 
   def user_params
-    params.fetch(:user, {}).permit(:name, :avatar)
+    params.require(:user).permit(:name, :avatar)
   end
 end
