@@ -18,6 +18,7 @@
         <td><%= user.name %></td>
         <td><%= user.postal_code %></td>
         <td><%= user.address %></td>
+        <td><%= (image_tag user.avatar, :size => '30x20') if user.avatar.present?%></td>
         <td><%= link_to t('views.common.show'), user %></td>
       </tr>
     <% end %>
