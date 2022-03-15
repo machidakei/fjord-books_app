@@ -1,63 +1,11 @@
 # frozen_string_literal: true
 
 class UsersController < ApplicationController
-  before_action :set_user, only: %i[show edit update destroy]
 
   def index
     @users = User.order(:id).page(params[:page])
   end
 
-  def show; end
-
-  def new
-    @user = User.new
-  end
-
-  def edit; end
-
-  def create
-    @user = User.new(user_params)
-
-    respond_to do |format|
-      if @user.save
-        format.html { redirect_to @user, notice: t('controllers.common.notice_create', name: User.model_name.human) }
-        format.json { render :show, status: :created, location: @user }
-      else
-        format.html { render :new }
-        format.json { render json: @user.errors, status: :unprocessable_entity }
-      end
-    end
-  end
-
-  def update
-    respond_to do |format|
-      if @user.update(user_params)
-        format.html { redirect_to @user, notice: t('controllers.common.notice_update', name: User.model_name.human) }
-        format.json { render :show, status: :ok, location: @user }
-      else
-        format.html { render :edit }
-        format.json { render json: @user.errors, status: :unprocessable_entity }
-      end
-    end
-  end
-
-  def destroy
-    @user.destroy
-    respond_to do |format|
-      format.html { redirect_to users_url, notice: t('controllers.common.notice_destroy', name: User.model_name.human) }
-      format.json { head :no_content }
-    end
-  end
-
-  private
-
-  # Use callbacks to share common setup or constraints between actions.
-  def set_user
+  def show
     @user = User.find(params[:id])
   end
-
-  # Only allow a list of trusted parameters through.
-  def user_params
-    params.require(:user).permit(:email, :encrypted_password, :post_code, :address, :self_introduction)
-  end
-end
